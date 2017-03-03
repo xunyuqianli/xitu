@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a27459.juejin.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/framLayout_shouye"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout_container_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageButton
+            android:id="@+id/imagebutton_home"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_selector"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+            android:contentDescription="@string/desc"
+
+
+            />
+        <ImageButton
+            android:id="@+id/imagebutton_explore"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/explore_selector"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+            android:contentDescription="@string/desc"
+            />
+        <ImageButton
+            android:id="@+id/imagebutton_notification"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification_selector"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+            android:contentDescription="@string/desc"
+            />
+        <ImageButton
+            android:id="@+id/imagebutton_profile"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_selector"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+            android:contentDescription="@string/desc"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
